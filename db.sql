@@ -92,11 +92,6 @@ INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (2, '22/02/20 16:23'
 INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (3, '22/02/20 16:23', 'Большая Деньга');
 INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (4, '22/02/20 16:23', 'Маленькая Деньга');
 INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (5, '22/02/20 16:23', 'НеФинансоваяПирамида');
-INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (1, '22/02/20 16:22', 'ООО "Рога И Копыта"');
-INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (2, '22/02/20 16:23', 'ООО "Копа И Рогыта"');
-INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (3, '22/02/20 16:23', 'Большая Деньга');
-INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (4, '22/02/20 16:23', 'Маленькая Деньга');
-INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (5, '22/02/20 16:23', 'НеФинансоваяПирамида');
 
 
 --
@@ -105,6 +100,7 @@ INSERT INTO public.companies OVERRIDING SYSTEM VALUE VALUES (5, '22/02/20 16:23'
 -- Data for Name: employees; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
+INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (1, '22/02/20 16:24', 'Иван Мягкий', 'ООО "Копа И Рогыта"');
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (2, '22/02/20 16:25', 'Дафния Планктоновна', 'Большая Деньга');
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (3, '22/02/20 16:25', 'Кайло Рен', 'Большая Деньга');
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (4, '22/02/20 16:26', 'Джонни Депп', 'Большая Деньга');
@@ -112,16 +108,6 @@ INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (5, '22/02/20 16:26'
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (6, '22/02/20 16:26', 'Тирион Ланнистер', 'Маленькая Деньга');
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (7, '22/02/20 16:27', 'Джон Сноу', 'НеФинансоваяПирамида');
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (8, '22/02/20 16:27', 'Витебск Русский', 'Маленькая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (1, '22/02/20 16:24', 'Иван Мягкий', 'ООО "Копа И Рогыта"');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (10, '22/02/20 16:28', 'Битрикс Одинэсович', 'НеФинансоваяПирамида');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (2, '22/02/20 16:25', 'Дафния Планктоновна', 'Большая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (3, '22/02/20 16:25', 'Кайло Рен', 'Большая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (4, '22/02/20 16:26', 'Джонни Депп', 'Большая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (5, '22/02/20 16:26', 'Геллерт Гриндевальд', 'Маленькая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (6, '22/02/20 16:26', 'Тирион Ланнистер', 'Маленькая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (7, '22/02/20 16:27', 'Джон Сноу', 'НеФинансоваяПирамида');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (8, '22/02/20 16:27', 'Витебск Русский', 'Маленькая Деньга');
-INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (1, '22/02/20 16:24', 'Иван Мягкий', 'ООО "Копа И Рогыта"');
 INSERT INTO public.employees OVERRIDING SYSTEM VALUE VALUES (10, '22/02/20 16:28', 'Битрикс Одинэсович', 'НеФинансоваяПирамида');
 
 
