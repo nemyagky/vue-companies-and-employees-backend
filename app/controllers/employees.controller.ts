@@ -47,7 +47,7 @@ export class EmployeesController {
          const newEmployee = await pool.query(`UPDATE employees SET
                username='${req.body.firstName} ${req.body.lastName}',
                company_name='${req.body.company}'
-               WHERE id=${req.body.id} RETURNING *`);
+               WHERE id='${req.body.id}' RETURNING *`);
          res.json(newEmployee.rows);
       } catch (e) {
          res.status(500).json(e.message);
